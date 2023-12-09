@@ -1,6 +1,6 @@
 <template>
   <div
-    class="max-w-sm bg-white dark:bg-gray-900 rounded-sm shadow dark:border-gray-700"
+    class="max-w-sm bg-white dark:bg-gray-900 rounded-sm shadow dark:border-gray-700 flex md:flex-col"
   >
     <div class="p-5">
       <h5
@@ -17,7 +17,9 @@
         <li>Compatibility Challenges</li>
       </ul>
     </div>
-    <img class="rounded-b-sm" src="../assets/image2.jpg" alt="" />
+    <div>
+      <img class="rounded-b-sm" src="../assets/image2.jpg" alt="" />
+    </div>
   </div>
 </template>
 

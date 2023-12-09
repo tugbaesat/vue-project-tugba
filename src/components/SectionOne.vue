@@ -1,8 +1,10 @@
 <template>
   <div
-    class="max-w-sm bg-white dark:bg-gray-900 rounded-sm shadow dark:border-gray-700"
+    class=" flex md:flex-col max-w-sm bg-white dark:bg-gray-900 rounded-sm shadow dark:border-gray-700"
   >
+  <div>
     <img class="rounded-t-lg bg-contain" src="../assets/image1.jpg" alt="" />
+  </div>
 
     <div class="p-5">
       <h5

@@ -7,7 +7,7 @@ import SectionTwo from "../components/SectionTwo.vue";
 <template>
   <main class="bg-white dark:bg-gray-900" >
     <GeneralContent />
-    <section class="flex justify-center text-center md:justify-evenly">
+    <section class="flex flex-col items-center text-center md:justify-evenly md:flex-row">
       <SectionOne />
       <SectionTwo />
     </section>
